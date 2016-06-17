@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.performtechnology</groupId>
 	<artifactId>ptp-maven-project</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -16,7 +16,7 @@
 		<connection>scm:git:git@github.com:PtpIncExample/ptp-maven-project</connection>
 		<url>scm:git:git@github.com:PtpIncExample/ptp-maven-project</url>
 		<developerConnection>scm:git:git@github.com:PtpIncExample/ptp-maven-project</developerConnection>
-		<tag>v0.0.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
