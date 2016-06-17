@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.performtechnology</groupId>
 	<artifactId>ptp-maven-project</artifactId>
@@ -16,8 +17,18 @@
 		<connection>scm:git:git@github.com:PtpIncExample/ptp-maven-project</connection>
 		<url>scm:git:git@github.com:PtpIncExample/ptp-maven-project</url>
 		<developerConnection>scm:git:git@github.com:PtpIncExample/ptp-maven-project</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>corp1</id>
+			<name>Local Example Repo</name>
+			<url>file:///tmp/example-mvn-repo/</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
